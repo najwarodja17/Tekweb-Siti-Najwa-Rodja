@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #1569bd;
+    border-bottom: 1px solid #ebeff4;
+}
+
+.navbar-brand {
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #ecf0f1;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+/* Home Section Styles */
+#home {
+    background-color: #1569bd;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+/* Destinations Section Styles */
+#destinations {
+    background-color: #1569bd;
+    color: rgb(102, 170, 225);
+    padding: 50px 0;
+}
+
+.destinations h2 {
+    color: rgb(102, 170, 225);
+}
+
+.card {
+    background-color: #a9d4ff;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonials Section Styles */
+#testimonials {
+    background-color: #1569bd;
+    color: #abd5ff;
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    color: #abd5ff;
+}
+
+.card-subtitle {
+    color: #abd5ff;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+}
